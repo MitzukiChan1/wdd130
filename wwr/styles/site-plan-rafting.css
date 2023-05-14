@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Wix+Madefor+Text&display=swap');
+
+:root {
+    --primary-color: #D6E681;
+    --secondary-color: #BABF95;
+    --accent-color: #C4AD83;
+    --additional-accent-color: #C6B677;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Wix Madefor Text', sans-serif;
+    --navigation-bg-color: #f8f9fa;
+    --navigation-link-color: #343a40;
+    --navigation-hover-link-color: #C6B677;
+    --navigation-hover-bg-color: #DBB957;
+  }
+
+  .nav-link {
+    color: var(--navigation-bg-color);
+  }
+  
+  .nav-link:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-bg-color);
+  }
+  
+  h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+  }
+  
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #333;
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+
+nav {
+    background-color: var(--navigation-bg-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem; 
+  }
+  
+  
+  nav a {
+    display: inline-block; 
+    color: var(--nav-link-color);
+    text-decoration: none;
+    margin: 0 1rem; 
+    padding: 1rem; 
+    border-radius: 5px; 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:link,
+  nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    transform: scale(1.1); 
+  }
+  
+  
