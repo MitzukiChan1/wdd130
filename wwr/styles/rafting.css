@@ -249,3 +249,51 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.employee {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.employee img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.employee p {
+  font-weight: bold;
+}
